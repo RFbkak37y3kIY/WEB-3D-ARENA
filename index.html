@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WEB 3D ARENA</title>
   <style>*{box-sizing:border-box}body{color:#dceaf6;background:#080d15;margin:0;font:15px system-ui,sans-serif;overflow:hidden}canvas{image-rendering:auto;touch-action:none;width:100vw;height:100vh;display:block}.fullscreen-toggle{z-index:1000;top:max(10px, env(safe-area-inset-top));right:max(10px, env(safe-area-inset-right));color:#fff;touch-action:manipulation;background:#09121cdd;border:1px solid #ffffff70;border-radius:6px;padding:8px 11px;font:600 13px system-ui,sans-serif;position:fixed}#hud{pointer-events:none;text-shadow:0 2px 4px #000;position:fixed;top:16px;left:18px}#hud strong{color:#69e9ff}#status{max-width:430px;margin-top:6px}#textureNotice{color:#ffbf78;margin-top:4px}#settings{z-index:5;background:#09121cdd;border:1px solid #33516b;padding:10px;display:none;position:fixed;top:58px;right:16px}#pixelSampling{color:#a9c1d5;font-size:11px;display:block}label{margin:5px 0;display:block}input{vertical-align:middle;width:110px}#crosshair{pointer-events:none;color:#c7ffff;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)}#overlay{background:#040911b8;place-items:center;display:grid;position:fixed;inset:0}#overlay[hidden]{display:none}#panel{background:#0c1928;border:1px solid #43667c;border-radius:12px;width:min(520px,94vw);padding:28px}h1{color:#7ceeff;margin-top:0}p{line-height:1.6}button{color:#081625;font:inherit;cursor:pointer;background:#9cecff;border:0;border-radius:5px;padding:12px 20px}#restart{background:#ccd6e2;margin-left:8px}#error{color:#f99;white-space:pre-wrap;overflow-wrap:anywhere;max-height:30vh;overflow:auto}#map{color:#7189a0;white-space:pre;pointer-events:none;background:#06101cdd;padding:8px;font:10px/10px monospace;position:fixed;bottom:14px;right:16px}@media (pointer:coarse){#map{font-size:8px;line-height:8px;bottom:38vh;right:10px}}</style>
-  <script type="module" crossorigin src="/assets/arena-BrCqJNHp.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/mobile-controls-CERcSp5f.js">
+  <script type="module" crossorigin src="./assets/arena-BrCqJNHp.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/mobile-controls-CERcSp5f.js">
 </head>
 <body>
   <canvas id="view" aria-label="Game arena"></canvas>
@@ -38,6 +38,7 @@
       <p id="error" role="alert"></p>
     </div>
   </div>
-
+
+
 </body>
 </html>
