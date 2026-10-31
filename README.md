@@ -6,6 +6,7 @@ A small, single-player first-person browser game. Explore a three-story arena, c
 
 # [LET'S PLAY](https://rfbkak37y3kiy.github.io/WEB-3D-ARENA/)
 
+<img>![alt text](Screenshot.png)</img>
 
 ## Objective
 
